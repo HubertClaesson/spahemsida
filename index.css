@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display&display=swap');
+
+*{
+    font-family:inter; 
+    box-sizing:border-box;
+    margin: 0;
+}
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.header-sektion{
+    width: 100%;
+    height: 6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logga-kontainer{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    padding-left: 3em;
+}
+
+.logga{
+    height: 2em;
+    align-self: center;
+}
+
+.navbar{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul{
+   display: flex;
+}
+
+.navbar li{
+    list-style: none;
+    padding-right: 20px;
+}
+
+.navbar a{
+    color: rgb(9, 19, 19);
+    text-decoration: none;
+}
+
+.knappar{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding-right: 3em;
+}
+
+.bokatid-knapp{
+    padding: 0.6em;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+
+.webbshop-knapp{
+    padding: 0.6em;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+
+}
+
+/* Main börjar här  */
+
+.filter{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(29, 28, 28, 0.395);
+}
+.hero-sektion{
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+
+    background-image: url(/img/massage-g990aab699_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+}
+
+
+
+.rubrikh1{
+    font-weight: 600;
+    padding-top: 13em;
+    
+}
+.rubrikh2{
+    margin-top: 0.3em;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+.rubrikh4{
+    margin-top: 0.3em;
+    font-weight: 500;
+}
+
+
+.heroButton1{
+    margin-top: 1.6em;
+    padding: 1.3em;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+.heroButton2{
+    padding: 1.3em;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+
+/* Här börjar flex kontainer med kort  */
+
+.rex-flex{
+   margin: 0.8em 0em 0 0em;
+}
+/* Sketion 2 rosa  */
+
+/* .filter-kort{
+    width: 100vw;
+    height: 400px;
+    background-color: rgba(15, 65, 110, 0.682);
+} */
+.sektion2-flexbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:0.8em;
+}
+
+.sektion2-box1{
+    width: 100vw;
+    height: 400px;
+    background-image: url(/img/essential-oils-g1cca6cf92_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: bisque;
+    object-fit: cover;
+}
+
+
+.sektion2-box2{
+    width: 100vw;
+    height: 400px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+
+    background-image: url(/img/cosmetic-g49976b096_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.sektion2-text1{
+    align-items: center;
+    color: aliceblue;
+}
+
+/* Sketion 3 turkos  */
+.sektion3-flexbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.sektion3-box{
+    width:100vw;
+    height:600px;
+    margin-top:0.8em;
+    
+    background-image: url(/img/wellness-gba83e3a98_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-color: rgb(24, 100, 100);
+}
+
+/* Sektion 4 grön  */
+.sektion4-flexbox{
+    display: flex;
+    justify-content: center;
+    gap: 0.8em;
+    text-align: center;
+}
+
+.sektion4-box1{
+    width:100vw;
+    height:400px;
+    margin-top: 0.5em;
+    background-color: rgb(17, 226, 10);
+    border-radius: 3px;
+
+    background-image: url(img/woman-g6a4ccabd1_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.sektion4-box2{
+    width:100vw;
+    height:400px;
+    margin-top: 0.5em;
+    background-color: rgb(17, 226, 10);
+    border-radius: 3px;
+
+    background-image: url(img/essential-oils-gd81310856_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.sektion4-box3{
+    width:100vw;
+    height:400px;
+    margin-top: 0.5em;
+    background-color: rgb(17, 226, 10);
+    border-radius: 3px;
+
+    background-image: url(img/stone-g79ff6bedc_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+
+
+
+/* Footer börjar här  */
+
+footer{
+    width:100vw;
+    padding: 5em 0 100px 0;
+    margin-top: 12em;
+    background-color: rgb(36, 120, 120);
+    display: flex;
+}
+
+.footer-kontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+.footer-loggabox{
+    width: fit-content;
+    height: 100%;
+    padding-left: 3em;
+    display: flex;
+}
+
+.footer-logga{
+    height:5em;
+    align-self: center;
+}
+
+.footer-socialamedierbox{
+    padding: 1em 4em 0 0;
+}
+
+.footer-socialamedierbox ul li{
+    list-style: none;
+}
+
+.footer-socialamedierbox ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-dagarbox{
+    padding: 1em;
+}
+.footer-dagarbox ul li{
+    list-style: none;
+}
+
+.footer-kontaktbox{
+    padding: 1em;
+}
+.footer-kontaktbox ul li{
+    list-style: none;
+}
+
+.footer-epostbox{
+    margin-top: 0.4em;
+}
+.footer-epostbox a{
+    text-decoration: none;
+    color: black;
+}
+
+#rubrik-footer{
+    margin: 0 0 0.5em 0; 
+}
+
+
+
+
+
+
+
