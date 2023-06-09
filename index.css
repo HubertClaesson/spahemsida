@@ -125,7 +125,7 @@ body{
 .heroButton2{
     padding: 1.3em;
     background-color: black;
-    color: aliceblue;
+    color: rgb(242, 248, 253);
     border: none;
 }
 
@@ -175,8 +175,15 @@ body{
 }
 
 .sektion2-text1{
-    align-items: center;
-    color: aliceblue;
+    padding-top: 6em;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.sektion2-text2{
+    font-size: 30px;
+    padding-top:6em;
+    color: rgb(255, 255, 255);
 }
 
 /* Sketion 3 turkos  */
@@ -191,6 +198,7 @@ body{
     width:100vw;
     height:600px;
     margin-top:0.8em;
+    border-radius: 3px;
     
     background-image: url(/img/wellness-gba83e3a98_1280.jpg);
     background-repeat: no-repeat;
@@ -200,9 +208,16 @@ body{
     background-color: rgb(24, 100, 100);
 }
 
+.sektion3-text{
+    padding-top: 5em ;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
 /* Sektion 4 grön  */
 .sektion4-flexbox{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 0.8em;
     text-align: center;
@@ -247,6 +262,12 @@ body{
     background-position: center;
     background-size: cover;
     object-fit: cover;
+}
+
+.sektion4-text{
+    padding-top: 7em;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
 }
 
 
