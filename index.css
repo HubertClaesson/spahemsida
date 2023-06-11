@@ -3,7 +3,6 @@
 *{
     font-family:inter; 
     box-sizing:border-box;
-    margin: 0;
 }
 
 body{
@@ -17,7 +16,6 @@ body{
     width: 100%;
     height: 6em;
     display: flex;
-    justify-content: space-between;
 }
 
 .logga-kontainer{
@@ -53,31 +51,8 @@ body{
     text-decoration: none;
 }
 
-.knappar{
-    width: fit-content;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    padding-right: 3em;
-}
 
-.bokatid-knapp{
-    padding: 0.6em;
-    background-color: black;
-    color: aliceblue;
-    border: none;
-}
-
-.webbshop-knapp{
-    padding: 0.6em;
-    background-color: black;
-    color: aliceblue;
-    border: none;
-
-}
-
-/* Main börjar här  */
+/* Här börjar Hero sektionen*/
 
 .filter{
     width: 100vw;
@@ -88,6 +63,7 @@ body{
     width: 100vw;
     height: 80vh;
     text-align: center;
+    margin-bottom: 0.8em;
 
     background-image: url(/img/massage-g990aab699_1280.jpg);
     background-size: cover;
@@ -107,7 +83,7 @@ body{
     margin-top: 0.3em;
     font-size: 40px;
     font-weight: 500;
-    letter-spacing: 10px;
+    letter-spacing: 1.2vw;
 }
 .rubrikh4{
     margin-top: 0.3em;
@@ -129,26 +105,44 @@ body{
     border: none;
 }
 
+@media only screen and (max-width: 700px) {
+    .navbar li{
+        padding-right: 7px;
+        font-size: 11.2px; 
+    }
+
+    .rubrikh2{
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0.3vw;
+    }
+    .sektion1-flexbox{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap:0.8em;
+    }
+    .sektion3-flexbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+  }
+
+
 /* Här börjar flex kontainer med kort  */
 
-.rex-flex{
-   margin: 0.8em 0em 0 0em;
-}
-/* Sketion 2 rosa  */
+/* Sketion 1 Behandlingar och Om oss  */
 
-/* .filter-kort{
-    width: 100vw;
-    height: 400px;
-    background-color: rgba(15, 65, 110, 0.682);
-} */
-.sektion2-flexbox{
+.sektion1-flexbox{
     display: flex;
     justify-content: center;
     text-align: center;
     gap:0.8em;
 }
 
-.sektion2-box1{
+.sektion1-kort1{
     width: 100vw;
     height: 400px;
     background-image: url(/img/essential-oils-g1cca6cf92_1280.jpg);
@@ -160,7 +154,7 @@ body{
 }
 
 
-.sektion2-box2{
+.sektion1-kort2{
     width: 100vw;
     height: 400px;
     border-radius: 3px;
@@ -174,30 +168,31 @@ body{
     object-fit: cover;
 }
 
-.sektion2-text1{
+.sektion1-text1{
     padding-top: 6em;
     color: rgb(255, 255, 255);
     font-size: 30px;
 }
 
-.sektion2-text2{
+.sektion1-text2{
     font-size: 30px;
     padding-top:6em;
     color: rgb(255, 255, 255);
 }
 
-/* Sketion 3 turkos  */
-.sektion3-flexbox{
+/* Sketion 2 Salongen  */
+
+.sektion2-flexbox{
     display: flex;
     justify-content: center;
     text-align: center;
     border-radius: 3px;
 }
 
-.sektion3-box{
+.sektion2-kort{
     width:100vw;
     height:600px;
-    margin-top:0.8em;
+    margin:0.5em 0 0.5em 0;
     border-radius: 3px;
     
     background-image: url(/img/wellness-gba83e3a98_1280.jpg);
@@ -205,29 +200,25 @@ body{
     background-position: center;
     background-size: cover;
     object-fit: cover;
-    background-color: rgb(24, 100, 100);
 }
 
-.sektion3-text{
+.sektion2-text{
     padding-top: 5em ;
     color: rgb(255, 255, 255);
     font-size: 40px;
 }
 
-/* Sektion 4 grön  */
-.sektion4-flexbox{
+/* Sektion 3 priser, produkter, kontakter  */
+.sektion3-flexbox{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 0.8em;
+    gap: 0.5em;
     text-align: center;
 }
 
-.sektion4-box1{
+.sektion3-kort1{
     width:100vw;
     height:400px;
-    margin-top: 0.5em;
-    background-color: rgb(17, 226, 10);
     border-radius: 3px;
 
     background-image: url(img/woman-g6a4ccabd1_1280.jpg);
@@ -236,11 +227,9 @@ body{
     background-size: cover;
     object-fit: cover;
 }
-.sektion4-box2{
+.sektion3-kort2{
     width:100vw;
     height:400px;
-    margin-top: 0.5em;
-    background-color: rgb(17, 226, 10);
     border-radius: 3px;
 
     background-image: url(img/essential-oils-gd81310856_1280.jpg);
@@ -250,11 +239,9 @@ body{
     object-fit: cover;
 }
 
-.sektion4-box3{
+.sektion3-kort3{
     width:100vw;
     height:400px;
-    margin-top: 0.5em;
-    background-color: rgb(17, 226, 10);
     border-radius: 3px;
 
     background-image: url(img/stone-g79ff6bedc_1280.jpg);
@@ -264,7 +251,7 @@ body{
     object-fit: cover;
 }
 
-.sektion4-text{
+.sektion3-text{
     padding-top: 7em;
     color: rgb(255, 255, 255);
     font-size: 24px;
@@ -279,62 +266,57 @@ body{
 footer{
     width:100vw;
     padding: 5em 0 100px 0;
-    margin-top: 12em;
+    margin-top: 11em;
     background-color: rgb(36, 120, 120);
     display: flex;
 }
 
 .footer-kontainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 1100px;
     margin: 0 auto;
 }
 
+/* Socialamedier */
 
-.footer-loggabox{
-    width: fit-content;
-    height: 100%;
-    padding-left: 3em;
-    display: flex;
+.footer-socialamedier{
+    padding: 1em;
 }
 
-.footer-logga{
-    height:5em;
-    align-self: center;
-}
-
-.footer-socialamedierbox{
-    padding: 1em 4em 0 0;
-}
-
-.footer-socialamedierbox ul li{
+.footer-socialamedier ul li{
     list-style: none;
 }
 
-.footer-socialamedierbox ul li a{
+.footer-socialamedier ul li a{
     text-decoration: none;
     color: black;
 }
 
-.footer-dagarbox{
+/* Dagar  */
+
+.footer-dagar{
     padding: 1em;
 }
-.footer-dagarbox ul li{
+.footer-dagar ul li{
     list-style: none;
 }
 
-.footer-kontaktbox{
+/* Kontakt */
+.footer-kontakt{
     padding: 1em;
 }
-.footer-kontaktbox ul li{
+.footer-kontakt ul li{
     list-style: none;
 }
 
-.footer-epostbox{
+/* Epost och telefon */
+
+.footer-eposttelefon{
     margin-top: 0.4em;
 }
-.footer-epostbox a{
+.footer-eposttelefon a{
     text-decoration: none;
     color: black;
 }
