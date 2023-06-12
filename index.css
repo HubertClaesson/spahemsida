@@ -28,6 +28,7 @@ body{
 .logga{
     height: 2em;
     align-self: center;
+   
 }
 
 .navbar{
@@ -63,13 +64,15 @@ body{
     width: 100vw;
     height: 80vh;
     text-align: center;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.5em;
 
-    background-image: url(/img/massage-g990aab699_1280.jpg);
+
+    background-image: url(img/massage-g990aab699_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: aliceblue;
+
 }
 
 
@@ -128,6 +131,14 @@ body{
         flex-wrap: wrap;
     }
 
+    .navbar{
+        padding-top: 0.3em;
+    }
+
+    .logga-kontainer{
+        padding-top: 0.3em;
+    }
+
   }
 
 
@@ -139,17 +150,18 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    gap:0.8em;
+    gap:0.5em;
 }
 
 .sektion1-kort1{
     width: 100vw;
     height: 400px;
-    background-image: url(/img/essential-oils-g1cca6cf92_1280.jpg);
+    background-image: url(img/essential-oils-g1cca6cf92_1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     object-fit: cover;
+   
 }
 
 
@@ -160,22 +172,23 @@ body{
     display: flex;
     justify-content: center;
 
-    background-image: url(/img/cosmetic-g49976b096_1280.jpg);
+    background-image: url(img/cosmetic-g49976b096_1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     object-fit: cover;
+ 
 }
 
 .sektion1-text1{
-    padding-top: 6em;
+    padding-top: 5em;
     color: rgb(255, 255, 255);
     font-size: 30px;
 }
 
 .sektion1-text2{
     font-size: 30px;
-    padding-top:6em;
+    padding-top:5em;
     color: rgb(255, 255, 255);
 }
 
@@ -194,7 +207,7 @@ body{
     margin:0.5em 0 0.5em 0;
     border-radius: 3px;
     
-    background-image: url(/img/wellness-gba83e3a98_1280.jpg);
+    background-image: url(img/wellness-gba83e3a98_1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -208,6 +221,7 @@ body{
 }
 
 /* Sektion 3 priser, produkter, kontakter  */
+
 .sektion3-flexbox{
     display: flex;
     justify-content: center;
